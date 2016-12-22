@@ -1,0 +1,1 @@
+for d in junk/* ; do if [[ -d $d && -L $d ]]; then (cd $d && touch X.x && cd ..); fi; done
